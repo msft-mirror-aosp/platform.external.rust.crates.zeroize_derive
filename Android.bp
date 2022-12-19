@@ -24,7 +24,7 @@ rust_proc_macro {
     name: "libzeroize_derive",
     crate_name: "zeroize_derive",
     cargo_env_compat: true,
-    cargo_pkg_version: "1.3.2",
+    cargo_pkg_version: "1.3.3",
     srcs: ["src/lib.rs"],
     edition: "2018",
     rustlibs: [
@@ -40,7 +40,7 @@ rust_test_host {
     name: "zeroize_derive_test_src_lib",
     crate_name: "zeroize_derive",
     cargo_env_compat: true,
-    cargo_pkg_version: "1.3.2",
+    cargo_pkg_version: "1.3.3",
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
