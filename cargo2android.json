@@ -1,4 +1,5 @@
 {
   "host-first-multilib": true,
+  "tests": true,
   "run": true
 }
